@@ -57,7 +57,7 @@ class Director:
             missiles = cast.get_actors("missiles")
             for missile in missiles:
                 missile.set_position(player.get_position())
-                missile.set_velocity(Point(0, -1))    
+                missile.set_velocity(Point(0, -5))    
 
         '''#Fires Missile
         for missile in missiles:

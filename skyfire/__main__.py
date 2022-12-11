@@ -15,7 +15,7 @@ from game.shared.color import Color
 from game.shared.point import Point
 
 
-FRAME_RATE = 15
+FRAME_RATE = 14
 MAX_X = 900
 MAX_Y = 600
 CELL_SIZE = 50
@@ -75,7 +75,7 @@ def main():
         object.set_font_size(FONT_SIZE)
         object.set_color(WHITE)
         object.set_position(position)
-        object.set_velocity(Point(0, 1))
+        object.set_velocity(Point(0, 5))
         cast.add_actor("objects", object)
 
 #MISSILES (PLAYER PROJECTILES)

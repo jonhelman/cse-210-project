@@ -48,8 +48,7 @@ root
 
 This game is more of an early build, or a proof of concept and an exercise rather than an actual game so please bear in mind of the things that are still need to be fixed. Examples include: 
 
-* Both the debris and missile move very slowly since increasing the velocity makes it less likely that the hits will be registered.
 * The player can only fire one missile at a time, and every time the player fires their weapon, the missile returns to the player's position.
-* Sometimes the missile would not destroy an object even when colliding with it.
+* There is a 50/50 chance that the missile would not destroy an object even when colliding with it. This has something to do with the missile not detecting the object's cell due to jumping over it.
 * The missile does not disappear after hitting an object. I tried using the remove_actor method but it wouldn't work
 * When the missile isn't fired, it stays at the top left portion of the screen, beside the banner.

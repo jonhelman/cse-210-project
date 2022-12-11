@@ -15,7 +15,6 @@ class Actor:
         _position (Point): The screen coordinates.
         _velocity (Point): The speed and direction.
     """
-
     def __init__(self):
         """Constructs a new Actor."""
         self._text = ""
